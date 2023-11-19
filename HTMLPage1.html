@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <p>En un viaje constante para aprender y crear experiencias únicas.</p>
+    </header>
+
+    <section id="hard-skills">
+        <h2>Mis Habilidades Duras</h2>
+        <ul>
+            <li>Desarrollo de Videojuegos</li>
+            <li>Programación en JavaScript</li>
+            <!-- Puedes añadir más habilidades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="soft-skills">
+        <h2>Mis Habilidades Blandas</h2>
+        <ul>
+            <li>Trabajo en equipo</li>
+            <li>Creatividad</li>
+            <!-- Puedes añadir más habilidades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portafolio</h2>
+        <div class="project" onclick="toggleProject('ajolote')">
+            <img src="https://cdn.discordapp.com/attachments/781751006295359491/1175648793019039794/3e7fe0d5-8b16-40bd-8224-fa3a50685f65.jpg?ex=656bff42&is=65598a42&hm=b74f28a4c6be66b2ac03163a36b3ec7bc2fa15b5a6f56324c501fa23532f2379&" alt="Ajolote Kingdom">
+            <h3>Ajolote Kingdom</h3>
+        </div>
+        <div class="project" onclick="toggleProject('clementine')">
+            <img src="https://cdn.discordapp.com/attachments/781751006295359491/1175649756224172032/3ea247ac-25a2-4c76-a102-7db0601601c8.jpg?ex=656c0028&is=65598b28&hm=fe9894b8a62911a7e44706ea9490e64a0cf8947060da2f179a90433edf9291d4&" alt="Clementine">
+            <h3>Clementine</h3>
+        </div>
+        <div class="project" onclick="toggleProject('fish-party')">
+            <img src="https://cdn.discordapp.com/attachments/781751006295359491/1175648303057227826/adbf6e0a-93ad-4408-a088-9425e07fed6e.jpg?ex=656bfecd&is=655989cd&hm=4f04816bae96cd85c3c8c3f750f532a0f5178d812ea35bfaf475f57d06663780&" alt="Fish Party">
+            <h3>Fish Party</h3>
+        </div>
+        <div class="project" onclick="toggleProject('el-ronin')">
+            <img src="https://cdn.discordapp.com/attachments/781751006295359491/1175648758961283082/2a37ad79-ae36-49cf-af2f-c4352c962fab.jpg?ex=656bff3a&is=65598a3a&hm=92f6e947a618191454e940638742b602b02ecbc473f68b992a664003ced0084c&" alt="El Ronin">
+            <h3>El Ronin</h3>
+        </div>
+    </section>
+
+    <section id="ajolote" class="project-info">
+        <h3>Ajolote Kingdom</h3>
+        <p><strong>Trama:</strong> En un reino de ajolotes regido por un rey tirano, un pequeño ajolote rebelde será desterrado del reino y se sumergirá en una gran odisea para regresar a su hogar y derrotar de una vez por todas al rey...</p>
+        <p><strong>Género:</strong> Aventura</p>
+        <p><strong>Estado:</strong> En desarrollo</p>
+        <p><strong>Fecha:</strong> Marzo 2024</p>
+    </section>
+
+    <section id="clementine" class="project-info">
+        <h3>Clementine</h3>
+        <p><strong>Trama:</strong> Una pequeña gatita llamada Clementina salió de hogar buscando una aventura...</p>
+        <p><strong>Género:</strong> Aventura</p>
+        <p><strong>Estado:</strong> En desarrollo</p>
+        <p><strong>Fecha:</strong> Enero 2024</p>
+    </section>
+
+    <section id="fish-party" class="project-info">
+        <h3>Fish Party</h3>
+        <p><strong>Trama:</strong> Crea tus propios acuarios, empieza cuidando un pequeño pez y poco a poco irás construyendo todo un acuario entero...</p>
+        <p><strong>Género:</strong> Simulación</p>
+        <p><strong>Estado:</strong> En desarrollo</p>
+        <p><strong>Fecha:</strong> Abril 2024</p>
+    </section>
+
+    <section id="el-ronin" class="project-info">
+        <h3>El Ronin</h3>
+        <p><strong>Trama:</strong> Un vigilante ha aparecido en las calles de un México futurista, tendrás que dirigir a este misterioso personaje y resolver una trama noir futurista...</p>
+        <p><strong>Género:</strong> RPG</p>
+        <p><strong>Estado:</strong> En desarrollo</p>
+        <p><strong>Fecha:</strong> Segunda mitad de 2024</p>
+    </section>
+
+    <footer>
+        <h3>Contacto</h3>
+        <p>Número: 7731563815</p>
+        <p>Correo: danielzanabria113@gmail.com</p>
+        <p>Instagram: @dantresan11</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
